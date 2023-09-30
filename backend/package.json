@@ -1,0 +1,53 @@
+{
+  "name": "kaleido-dapp-backend",
+  "version": "0.1.0",
+  "description": "Backend for the kaleido-dapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.js test/**/*.js",
+    "hardhat_test": "npx hardhat test contract_test/DeckOfCardsTest.js",
+    "backend_test": "nyc --reporter=lcov mocha backend_test/ServerTest.js --exit",
+    "gamelogic_test": "nyc --reporter=lcov mocha backend_test/GameLogicTest.js",
+    "coverage": "codecov",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaleido-io/frontend-challenge.git"
+  },
+  "keywords": [
+    "kaleido",
+    "blockchain"
+  ],
+  "author": "info@kaleido.io",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kaleido-io/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/kaleido-io/frontend-challenge#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "archiver": "^3.1.1",
+    "axios": "^1.5.0",
+    "axios-mock-adapter": "^1.21.5",
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nock": "^13.3.3",
+    "node-stream-zip": "^1.8.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "swagger-client": "^3.9.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "hardhat": "^2.17.2",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2"
+  }
+}

@@ -1,0 +1,1 @@
+exports.BACKEND_JACKBLACK_URL = process.env.BACKEND_JACKBLACK_URL;
