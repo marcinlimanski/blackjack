@@ -1,5 +1,3 @@
-const {getDeckOfCards} = require('../api/apiDeckOfCards')
-
 class GameLogic {
 
     constructor() {
