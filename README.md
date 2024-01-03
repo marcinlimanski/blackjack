@@ -1,5 +1,4 @@
-[![CI](https://github.com/marcinlimanski/developer-challenge/actions/workflows/node.js.yml/badge.svg)](https://github.com/marcinlimanski/developer-challenge/actions/workflows/node.js.yml)
-[![codecov](https://codecov.io/gh/marcinlimanski/developer-challenge/graph/badge.svg?token=NBRDPD718A)](https://codecov.io/gh/marcinlimanski/developer-challenge)
+
 # JackBlack The Game
 
 <p align="center">
